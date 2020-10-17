@@ -1,0 +1,158 @@
+* {
+	padding: 0 !important;
+	margin: 0 !important;
+	box-sizing: border-box !important;
+	font-family: 'Abel', sans-serif;
+}
+
+
+/* NAVBAR */
+#navbar {
+	z-index: 2; 
+	background: linear-gradient(to left, rgba(73,73,73,0.2) 25%, #000000 75%); 	
+	position: fixed;
+	width: 100%;
+}
+
+.navbar-toggler {
+	height: 2.5em;
+	width: 2.5em;
+	float: right !important;
+}
+
+#logo {
+	height: 3em;
+}
+
+.navbar-brand {
+	margin: 0.3em 0 0.3em 1em !important;
+}
+
+.navbar-nav li {
+	padding: 0 1em !important;
+}
+
+.navbar-nav li a {
+	color: rgb(238, 238, 238) !important;
+	font-weight: bold;
+	font-size: 0.9rem;
+}
+
+.navbar-nav li a:hover {
+	color: #FF671F !important;
+}
+
+
+.dropdown-menu {   
+    position: absolute;
+    z-index: 999;
+    overflow: visible;
+	background-color: rgba(73,73,73,0.2) !important;
+	padding: 0.8em !important;
+}
+
+.dropdown-menu a {
+	color: white;
+}
+
+.dropdown-menu a:hover {
+	background-color: rgba(73,73,73,0.6) !important;
+}
+
+
+
+
+/* HERO */
+#hero {
+	background-image: url(./../images/hero.jpg);
+	background-size: cover;
+	background-attachment: fixed; 
+    min-height: 100vh;
+}
+
+
+
+
+
+
+
+
+
+/*Media Query*/
+@media (max-width: 1024px) {
+	
+
+	#logo {
+		height: 3em;
+	}
+	
+	.navbar-brand {
+		margin: 0 !important;
+	}
+
+	.navbar-nav li {
+		padding: 0 0.5em !important;
+	}
+
+	.navbar-nav li a {
+		font-weight: bold;
+		font-size: 0.8rem;
+	}
+	
+	
+}
+
+
+
+@media (max-width: 768px) {
+	#logo {
+		height: 3em;
+	}
+	
+	.navbar-brand {
+		margin: 0 !important;
+	}
+
+	.navbar-nav li a {
+		font-weight: bold;
+		font-size: 1.5rem !important;
+	}
+}
+
+
+
+@media (max-width: 540px) {
+	#logo {
+		height: 3em;
+	}
+	
+	.navbar-brand {
+		margin: 0 !important;
+	}
+
+	.navbar-nav li a {
+		font-weight: bold;
+		font-size: 0.7rem !important;
+		margin: 0.3em 0 !important;
+	}
+}
+
+
+
+@media (max-width: 320px) {
+	#logo {
+		height: 3em;
+	}
+	
+	.navbar-brand {
+		margin: 0 !important;
+	}
+
+	.navbar-nav li a {
+		font-weight: bold;
+		font-size: 0.5rem !important;
+		margin: 0.3em 0 !important;
+	}
+}
+
+
